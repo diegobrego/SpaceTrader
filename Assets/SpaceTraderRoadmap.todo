@@ -1,0 +1,145 @@
+- Space trader game
+- Based on Merchant of the skies and Patrician III
+
+- Trade with resources in space between different Planets, respectively you will trade with the trading stations that orbit the planets.
+
+- Trading map should be in 2d
+- Trading posts can be expanded.
+- Trading posts can be bought
+- Different types of anchoring points
+
+STATIONS:
+- Like in merchant of the skies there are different amount of Stations (Isles)
+  - Starter station
+  - Space station (Town)
+  - Planetary link station.
+  - Asteroid mining station / Asteroids (Resources)
+    - Asteroids can be found with or without a station, if no station is available you can gather resources from the surface.
+    - Use a drill to extract more resources.
+    - If the asteroid has a station, you may buy resources, normally cheaper than traders.
+
+    - Carbon
+    - Iron
+    - Gold
+    - Water
+    - Gems
+    - Bio
+    - Sand
+    - Platinum
+    - Oil
+  - Special station
+    - Research station
+    - Outlaw station
+    - Trading station
+  - Shipwrecks
+
+STATION BUILDINGS:
+  - Tanking station - Used to refuel your ships
+  - Trade guild - Gives you quests to deliver certain items on specific stations.
+  - Space Terminal - Gives you passenger quests. One time travel or also with returning to origin station.
+  - Shipwright - Buy and Sell you ships here, not all shipwrights will have the same ships.
+  - Ship Workshop - Applies modifications and shield upgrades to the ships.
+  - Ship Gunnershop - Applies weapon modifications to the ships.
+  - Inn - Recruit new crew members or captains. Can give quests.
+  
+  - Research lab - Found on research station - Allows the player to gain talents.
+  - Outlaw post - Found on outlaw station - Find piraty quests (new map points, ships to attack)
+  - Trade post - Found on trading station - Trade resources.
+
+PLAYER BUILDINGS:
+- Also you can build your own buildings on owned stations:
+  Default station buildings:
+    ☐ Storage - Stores materials and items.
+    ☐ Bio farm - Plant and gather biomass resources from a asteroid - Requires a storage
+    ☐ Traderoute office - Set trade routes that will be fullfiled as often as you want.
+    ☐ Forge - Create refined metal from iron ore - Requires a storage.
+    ☐ Polymer fabricator - Create Polymer from Oil - Requires a storage
+    ☐ Tanking station - Refuels the selected ship
+    ☐ Workshop - Creates microchips from refined metals - Requires a storage.
+    ☐ Refinery - Creates petroleum from oil - Requires a storage. 
+    ☐ Kitchen - Creates food from biomass and Water - Requires a storage & Water storage
+    ☐ Water storage - Stores water
+    ☐ Shipyard - Allows you to swap modifications from your ships.
+  
+  - After buying a mining station you can also place buildings here.
+  - You are limited on how much buildings you want to place depending on how big the asteroids/stations are.
+  Mining station buildings:
+    ☐ Iron miner
+    ☐ Carbon miner
+    ☐ Gold miner
+    ☐ Platinum miner
+    ☐ Sand miner
+    ☐ Gem miner
+    ☐ Water extractor
+    ☐ Biomass extractor
+    ☐ Oil extractor
+
+TALENTS:
+  - The player will gather experience over the game, this experienve can be used to gain
+  - talents, this talents can only be unlocked or "Learned" at the Research stations
+  - Talents are global and apply to all ships and buildings.
+  - Talents have various levels 
+
+  TALENTS:
+    ☐ Merchant: get more from sold items
+    ☐ Recruiter: Reduce new crew costs
+    ☐ Extractor: More resources gained at asteroids
+    ☐ Banking Expert: Higher bank interest rates
+    ☐ Resourceful: Less building costs
+    ☐ Fuel Efficiency: Less fuel consumption
+    ☐ Engine Efficiency: Faster ships
+    ☐ Engineers: Modules last longer
+    ☐ Shield research: Ship shields last longer
+    ☐ BioPods: Chance to gather more bioproducts from farms
+    ☐ BlastForge: Increase chance to gain more resources from Forge
+    ☐ Mine: Mine outcome increased
+
+
+TRADING:
+- Like in patrician 3, you can send your ships to different locations.
+- You can only enter stations that have one of your ships anchored ore have a outpost building.
+- Ships could get attacked by pirates while traveling to different locations.
+  - If a ship is beeing attacked you can choose to manually or automatically evade the combat.
+  - MANUALLY:
+    - Enter a combat scene where you can fly to the border of the screen to escape the combat,
+    - or you can fight against the pirate ships.
+  - AUTOMATICALLY:
+    - The ship probability is calculated if you can escape the combat,
+    - you may loose some resources or health points.
+
+SHIPS:
+  - The player will have different ships under his command.
+  - At the beginning you can only hold 2 ships, until you start building shipyards.
+  - Ships can be upgraded at Ship workshops.
+  - Ships can carry modules, depending on how big the ship is.
+  - Ships will use fuel to move through space, modules can change fuel consumption
+  - Ships can also equip weapons.
+  - Ships will have a shield module, use to withstand pirate attacks.
+  - Ships can carry crew members, the crew members are used when creating a outpost on another island.
+  - Ships can also have captains, if a captain is on the ship, some skills can increase.
+    - Combat
+    - Trading
+
+CURRENCY:
+  - The main currency of the game are Credits
+  - A secondary currency should be implemented for more special upgrades.
+  - Maybe add a currency for black market trading.
+
+
+
+Gameflow:
+  - The game starts on a starting station,
+  - The player will only have one small cargo ship, no modules installed.
+  - The player will need to start trading things.
+  - trading consists of buying resources at your station and bringing them somewhere else.
+  - On the map you will see nearby stations and what resources they need the most.
+  - The map will only display stations your ship can reach, or you have discovered.
+  - Increase the Pathfinder talent to find more asteroids+.
+  - Once you have bought resources, you can sell them to other stations.
+  - Use your money to buy anything you want.
+  - The primary goal of the game ist to pay back your debts.
+  - If you can not pay back your debts for 2 months, in the second paying double, you loose the game.
+
+
+Implementation:
+  - 
