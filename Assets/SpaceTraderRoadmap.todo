@@ -140,6 +140,12 @@ Gameflow:
   - The primary goal of the game ist to pay back your debts.
   - If you can not pay back your debts for 2 months, in the second paying double, you loose the game.
 
+Visuals:
+  - The game will mainly be only UI elements, since we are focused on trading and not on other aspects.
+  - The combat system will be displayed in a 2d world, keeping environment and other elements very basic (just like in asteroids game)
+  - The map will represent a static map of all available stations and all the player ships displayed as small dots.
+  - Items on the map will be interactable, click on them to enter stations or see more details about a ship or other thing.
 
 Implementation:
-  - 
+  Ship manager:
+    - The ship manager should be responsible to hold all ships.
